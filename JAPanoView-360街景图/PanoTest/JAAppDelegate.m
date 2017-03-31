@@ -21,6 +21,7 @@
     self.viewController = [[JAViewController alloc] init];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    NSLog(@"");
     return YES;
 }
 
